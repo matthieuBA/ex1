@@ -16,5 +16,5 @@ while (nn <= n)
         nnn+=-1
     end
 puts ""
-    nn+=1
+nn+=1
   end

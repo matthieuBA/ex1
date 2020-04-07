@@ -4,7 +4,7 @@ str2="@email.fr"
 arr = []
 i=0
 50.times do |i|
-  str3=(n+1).to_s
+  str3=(n).to_s
     str4=str1+str3+str2
     arr << str4
     n+=1
@@ -12,7 +12,7 @@ i=0
 
 arr.each do |ar|
 
-  if i.odd? then
+  if i.even? then
     puts ar
   end
 i=i+1

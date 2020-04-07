@@ -1,9 +1,7 @@
 puts "nombre"
 print "> "
-n = gets.chomp
-n = Integer(n)
+n = Integer(gets.chomp)+1
 n.times do |i|
-    print "#"*i
-    puts ""
+    puts "#"*i
 end
 
